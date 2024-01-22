@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Story Book</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        nav {
+            text-align: center;
+            padding: 1em 0;
+            
+        }
+        nav a{
+            text-decoration: none; 
+            font-size:30px; 
+            color:#333;
+        }
+
+        section {
+            padding: 2em;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px 15px;
+            display: none;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>MINDSET CHANGER</h1>
+    </header>
+
+    <nav>
+        <a href="#section1">Chapter 1</a> |
+        <a href="#section2">Chapter 2</a> |
+        <a href="#section3">Chapter 3</a> |
+        <a href="#section4">Chapter 4</a> |
+        <a href="#section5">Chapter 5</a>
+    </nav>
+
+    <section id="section1">
+        <h2>Chapter 1</h2>
+        <h1>The Digital Frontier</h1>
+        <p>Once upon a time in the bustling city of Progressville, Alex, <br>a young and ambitious individual, found themselves <br>fascinated by the endless possibilities of the digital world. <br>In this chapter, we explore the realm of online opportunities—from freelancing and <br>digital marketing to creating and selling digital products. Alex learns that mastering the <br>digital frontier is not only a way to make money but also a <br>gateway to a world where innovation knows no bounds.</p>
+    </section>
+
+    <section id="section2">
+        <h2>Chapter 2</h2>
+        <h1>Investing in knowledge</h1>
+        <p>In the pursuit of wealth, Alex discovers the power of <br>knowledge. The second chapter takes us on a journey through <br>self-education and skill development. From online courses to <br>mentorship programs, Alex realizes that investing time and resources <br>in acquiring valuable skills can be a key driver for financial success. The story unfolds as <br>Alex learns how knowledge becomes a lucrative asset in the modern era.</p>
+    </section>
+
+    <section id="section3">
+        <h2>Chapter 3</h2>
+        <h1>The Rise of Side Hustles</h1>
+        <p>As Alex delves deeper into the world of entrepreneurship, <br>they stumble upon the concept of side hustles. <br>From dropshipping and affiliate marketing to creating a small business, this chapter explores <br>the various ways individuals can turn their passions and hobbies into profitable ventures. <br>Alex discovers that with dedication and creativity, a side hustle can blossom into a sustainable income stream.</p>
+    </section>
+
+    <section id="section4">
+        <h2>Chapter 4</h2>
+        <h1>Navigating the Gig Economy</h1>
+        <p>In the ever-evolving landscape of work, Alex finds themselves <br>drawn to the gig economy. This chapter explores the flexibility and <br>freedom that gig work provides. From ride-sharing and food delivery to virtual assistance, <br>Alex learns to navigate the gig economy and make the most out of the diverse opportunities it offers. <br>The story unfolds as Alex encounters both challenges and triumphs in this dynamic and fast-paced sector.</p>
+    </section>
+
+    <section id="section5">
+        <h2>Chapter 5</h2>
+        <h1>Wealth Mindset and Financial Literacy</h1>
+        <p>In the final chapter, Alex realizes that true financial success goes beyond just making <br>money—it's about managing and growing that wealth. The journey concludes with a focus on <br>cultivating a wealth mindset and developing financial literacy. Alex learns the importance of budgeting, <br>saving, and making informed investment decisions. As the story reaches its climax, Alex emerges not just <br>with a pocket full of money but with the wisdom to sustain and expand their financial empire.<br><br><strong>Conclusion</strong><br>And so, in the city of Progressville, Alex's journey serves as <br>a testament to the myriad ways one can make money in the modern era, showcasing that the keys to <br>success lie in embracing the digital age, investing in oneself, exploring diverse opportunities, <br>and fostering a mindset geared towards long-term prosperity.</p>
+    </section>
+
+    <footer>
+        <p>Designed by Adegbite Adeola</p>
+    </footer>
+
+    <a href="#" class="back-to-top">Back to Top</a>
+    
+    <script>
+        function scrollToTop() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+
+        window.onscroll = function () {
+            scrollFunction();
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.querySelector('.back-to-top').style.display = 'block';
+            } else {
+                document.querySelector('.back-to-top').style.display = 'none';
+            }
+        }
+    </script>
+  
+</body>
+
+</html>
